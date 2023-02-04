@@ -31,8 +31,6 @@ function App() {
         <div className="display">
           <ul>
           {data.map((item )=>{
-            {/* const {name}=item */}
-            console.log(item)
             return <li>
               {item}
               abc
